@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+html,body{
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+header{
+    height:200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width:50%;
+    text-align: right;
+    font-family: arial;
+}   
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+
+}
+
+.extras{
+    position: absolute;
+    bottom:-450px;
+    right:-500px;
+    width:1200px;
+    height:1200px;
+    border-radius:50%;
+    background-color: #182672;
+}
+
+.logo-text{
+    position: absolute;
+    top: 45px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+h2  {
+    position: absolute;
+    font-family: arial;
+}
+
+.FAQ{
+    width: 60%;
+    max-width:600px;
+    margin-top: 50px;
+    margin-right: 200px;
+  
+}
+
+.FAQ details summary{
+    background-color: rgb(60, 60, 161);
+    padding: 2%;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.FAQ details p{
+    background-color: rgb(236, 126, 63);
+    color: white;
+    padding: 2%;
+    font-family: arial;
+}
